@@ -24,17 +24,24 @@
           {{ content }}
 
           <div class="footer">
+            <ul>
+            {% for member in site.data.members %}
+                  <li>
+                    <a href="https://github.com/{{ member.github }}">
+                      {{ member.name }}
+                    </a>
+                  </li>
+            {% endfor %}
+            </ul>
             <div class="contact">
               <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
+                不是程序<br />
+                timesking AT gmail.com
               </p>
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+                <a href="https://timesking.github.io/b">timesking.github.io/b</a><br />
               </p>
             </div>
           </div>
