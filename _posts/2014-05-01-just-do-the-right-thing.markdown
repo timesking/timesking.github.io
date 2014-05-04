@@ -10,4 +10,3 @@ GGG
 中文
 中文
 ab
-[Welcome to jekyll]({% post_url 2014-04-30-welcome-to-jekyll %})
